@@ -1,7 +1,7 @@
 from re import search
 from setuptools import setup, find_packages
 
-install_requires = ["graphql-core>=3.1.0,<4", "typing-extensions>=3.7.4,<4"]
+install_requires = ["graphql-core>=3.2,<3.3", "typing-extensions>=4,<5"]
 
 tests_requires = [
     "pytest>=5.4,<5.5",
@@ -20,7 +20,7 @@ dev_requires = [
 ] + tests_requires
 
 install_flask_requires = [
-    "flask>=0.7.0<1",
+    "flask>=1,<3",
 ]
 
 install_sanic_requires = [
